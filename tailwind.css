@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,500,600,700,800,900&display=swap');
+@tailwind base;
+@tailwind components;
+body{
+   @apply font-body text-14 text-primary leading-26;
+}
+h2{
+   @apply font-heading font-extrabold text-5xl text-heading;
+}
+h3{
+   @apply font-heading font-extrabold text-29 text-heading;
+}
+.navbar-nav{
+   @apply m-0 p-0;
+}
+.nav-item{
+   @apply inline-block;
+}
+.nav-link{
+   @apply font-heading font-bold text-xs uppercase px-8 py-4 block transition-250 cursor-pointer;
+}
+.nav-link:hover{
+   @apply text-orange-70;
+} 
+.btn{
+   @apply inline-block px-35 py-2 uppercase;
+} 
+.btn-black{
+   @apply font-bold text-xs text-white border-2 border-btn border-solid bg-btn no-underline transition-250;
+}
+.btn-black:hover{
+   @apply bg-transparent text-heading border-2 border-btn border-solid;
+}
+/* .card{
+   @apply transition-250;
+}
+.card:hover .card-gradient {
+   @apply bg-gradient-r-red-blue transition-250;
+}
+.card-gradient{
+   @apply h-8 max-w-full rounded-t-lg bg-white transition-250;
+}
+.card-body{
+   @apply bg-white rounded-lg text-center px-6 pb-20 pt-12 transition-250;
+}
+.card-body:hover{
+   @apply shadow-xl;
+} */
+
+
+@tailwind utilities;
