@@ -28,7 +28,7 @@
     "autoprefixer": "^9.6.1",
     "postcss": "^7.0.18",
     "postcss-cli": "^7.0.0",
-    "tailwindcss": "^1.1.2",
+    "tailwindcss": "^2.0.0",
     "tailwindcss-border-gradients": "^2.0.3",
     "tailwindcss-fluid-container": "^4.0.0",
     "tailwindcss-transforms": "^2.2.0",
