@@ -36,7 +36,7 @@
     "watch": "^1.0.2"
   },
   "devDependencies": {
-    "tailwindcss-pseudo-elements": "1.1.2",
+    "tailwindcss-pseudo-elements": "2.0.0",
     "tailwindcss-triangle-after": "1.2.0"
   }
 }
